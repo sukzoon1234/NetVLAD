@@ -5,6 +5,7 @@ from tqdm import tqdm
 import faiss
 import json
 
+#
 from dataloader import BerlinDataset
 from model import VPR_model
 

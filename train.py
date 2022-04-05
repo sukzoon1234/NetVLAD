@@ -64,3 +64,4 @@ for epoch in tqdm(range(epochs)):
     model_save_name = 'model_{:02d}.pt'.format(epoch)
     path = F"./컴퓨터비전/NetVLAD/ckpt/{model_save_name}" 
     torch.save(model.state_dict(), path)
+#

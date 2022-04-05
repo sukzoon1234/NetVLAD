@@ -21,6 +21,7 @@ class VPR_model(nn.Module):
             for p in l.parameters():
                 p.requires_grad = False
 
+#
 
     def forward(self, x): 
         descriptor = self.encoder(x) #out = W*H*D(512)
